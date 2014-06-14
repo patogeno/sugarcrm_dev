@@ -42,6 +42,10 @@ $viewdefs['Documents']['DetailView'] = array(
                                         array('label' => '10', 'field' => '30')
                                         ),
                         ),
+                        'includes'=> array(
+                            			array('file'=>'modules/Documents/Documents.js'),
+                         				),
+                        ),
 'panels' => 
     array (
       'lbl_document_information' => 
